@@ -1,0 +1,129 @@
+.scribbler-subheading {
+    color: #8a5ca4;
+  }
+
+  input, textarea {
+    background: white;
+  }
+  
+  .post-body {
+    padding: 30px;
+  }
+  .post-title {
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .input-title {
+    font-size: 1.17em;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 2px solid #fec7d0;
+    outline: 0;
+  }
+  
+  .post-subheading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .post-user {
+    font-family: "Ubuntu Mono", monospace;
+  }
+  .post-action > button {
+    background-color: #ed2562;
+    color: #ffffff;
+    border: 0;
+    padding: 7px 15px;
+    box-shadow: 0px 6px 6px #eca8bd;
+    cursor: pointer;
+  }
+  
+  .post-action > button > i {
+    vertical-align: -2px;
+    font-size: 16px;
+  }
+  
+  .post-information {
+    margin-top: 10px;
+    font-family: unset;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .input-information {
+    width: 100%;
+    margin-top: 10px;
+    font-family: unset;
+    font-size: 13px;
+    font-weight: 500;
+    box-sizing: border-box;
+    border: 2px solid #fec7d0;
+    outline: 0;
+  }
+  
+  .post-like > button {
+    background-color: #ed2562;
+    color: #ffffff;
+    border: 0;
+    padding: 7px 15px;
+    box-shadow: 0px 6px 6px #eca8bd;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .post-like-text {
+    margin-top: 10px;
+    font-size: 11px;
+    font-family: "Ubuntu Mono", monospace;
+    color: #6e7981;
+  }
+  textarea {
+    width: 70%;
+    margin-top: 20px;
+    height: 80px;
+    font-size: 10px;
+  }
+  
+  textarea::placeholder {
+    font-size: 10px;
+  }
+  
+  #postCommentButton {
+    background-color: #ed2562;
+    color: #ffffff;
+    border: 0;
+    padding: 7px 15px;
+    box-shadow: 0px 6px 6px #eca8bd;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .comment-title {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  
+  .comment-list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border: 16px solid #e2e4e6;
+    border-left-width: 8px;
+    border-right-width: 8px;
+  }
+  
+  .comments-item {
+    border: 3px solid #e2e4e6;
+    border-left-width: 0;
+    border-right-width: 0;
+    font-size: 13px;
+    padding: 10px;
+  }

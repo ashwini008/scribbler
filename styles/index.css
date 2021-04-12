@@ -1,0 +1,37 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    position: relative;
+    height: calc(100vh - 60px);
+}
+
+main > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main > div > button {
+    color: grey;
+    background-color: #dcbd28;
+    padding: 7px 14px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.modal-create-post {
+    width: 80%;
+}
+
+.modal-create-post button {
+    width: auto;
+    padding: 10px 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
